@@ -523,14 +523,16 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-          <label class="checkbox">
-            <input class="checkbox__input visually-hidden" type="checkbox" name="checkbox" />
-            <svg class="checkbox__icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-            <span class="checkbox__text"
+          <label class="checkbox-label">
+            <input class="checkbox-label__input visually-hidden" type="checkbox" name="checkbox" />
+            <span class="checkbox-label__box">
+              <svg class="checkbox-label__icon" width="16" height="15">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            <span class="checkbox-label__text"
               >Соглашаюсь с рассылкой и принимаю
-              <a class="checkbox__link" href="">Условия договора</a></span
+              <a class="checkbox-label__link" href="">Условия договора</a></span
             >
           </label>
           <button class="modal-form__btn" type="submit">Отправить</button>
