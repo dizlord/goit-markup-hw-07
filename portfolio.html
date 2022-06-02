@@ -9,14 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Header -->
@@ -27,30 +20,30 @@
         >
         <!-- Navigation -->
         <nav class="site-nav">
-          <ul class="list">
-            <li class="header__item">
+          <ul class="header-list">
+            <li class="header-list__item">
               <a class="site-nav__link" href="./index.html" rel="">Студия</a>
             </li>
-            <li class="header__item">
+            <li class="header-list__item">
               <a class="site-nav__link site-nav__link--accent" href="./portfolio.html" rel=""
                 >Портфолио</a
               >
             </li>
-            <li class="header__item"><a class="site-nav__link" href="" rel="">Контакты</a></li>
+            <li class="header-list__item"><a class="site-nav__link" href="" rel="">Контакты</a></li>
           </ul>
         </nav>
         <!-- Contacts header-->
-        <ul class="list">
-          <li class="header__item">
-            <a class="header__link" href="mailto:info@devstudio.com" rel="">
-              <svg class="header__icon" width="16" height="12">
+        <ul class="contacts-list">
+          <li class="contacts-list__item">
+            <a class="contacts-list__link" href="mailto:info@devstudio.com" rel="">
+              <svg class="contacts-list__icon" width="16" height="12">
                 <use href="./images/sprite.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="header__item">
-            <a class="header__link" href="tel:+380961111111" rel="">
-              <svg class="header__icon" width="10" height="16">
+          <li class="contacts-list__item">
+            <a class="contacts-list__link" href="tel:+380961111111" rel="">
+              <svg class="contacts-list__icon" width="10" height="16">
                 <use href="./images/sprite.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -59,10 +52,10 @@
       </div>
     </header>
     <main>
-      <section class="section">
+      <section class="portfolio">
         <div class="container">
           <h1 class="section-title visually-hidden">Наши проекты</h1>
-          <ul class="filter-list list">
+          <ul class="filter-list">
             <li class="filter-list__item">
               <button class="filter-list__btn" type="button">Все</button>
             </li>
@@ -79,7 +72,7 @@
               <button class="filter-list__btn" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="cards-list list">
+          <ul class="cards-list">
             <li class="cards-list__item">
               <a class="cards-list__link" href="">
                 <div class="cards-list__tumb">
@@ -299,6 +292,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
       <!-- Footer -->
       <div class="container footer-container">
@@ -307,7 +301,7 @@
             >Web<span class="logo__text logo__text--reverse">Studio</span></a
           >
           <address>
-            <ul class="list footer-list">
+            <ul class="footer-list">
               <li class="footer-list__item">
                 <a
                   class="footer-list__adress"
@@ -330,7 +324,7 @@
         </div>
         <div class="connect-container">
           <h2 class="footer-container__title">Присоединяйтесь</h2>
-          <ul class="social-list list">
+          <ul class="social-list">
             <li class="social-list__item">
               <a href="" class="social-list__link social-list__link--dark" aria-label="Инстаграмм">
                 <svg class="social-list__icon" width="20" height="20">
