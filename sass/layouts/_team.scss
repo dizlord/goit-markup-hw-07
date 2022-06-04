@@ -1,9 +1,4 @@
 /* CSS for section team */
-.team {
-    @extend %section;
-
-    background-color: getBackGroundColor('team');
-}
 
 /* Flex the team content */
 .team-list {
@@ -30,7 +25,7 @@
 }
 
 /* Header in team*/
-.team-list__name {
+.team-list__title {
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -40,7 +35,7 @@
 }
 
 /* Team paragraph */
-.team-list__paragraph {
+.team-list__text {
     margin: 0;
     margin-bottom: 16px;
 

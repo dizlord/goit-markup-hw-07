@@ -7,11 +7,6 @@
   margin: 0;
 }
 
-.features, .works, .team, .clients, .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .site-nav__link:hover::after, .site-nav__link:focus::after, .site-nav__link--accent::after {
   content: '';
   position: absolute;
@@ -309,6 +304,19 @@ body {
   letter-spacing: 0.03em;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section--noPaddingTop {
+  padding-top: 0;
+}
+
+.section--otherBackground {
+  background-color: #F5F4FA;
+}
+
 /* Section title */
 .section__title {
   margin-top: 0;
@@ -579,8 +587,6 @@ img {
 .hero__container {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 1600px;
   height: 600px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/index/hero-background.jpg");
@@ -661,16 +667,12 @@ img {
 }
 
 /* Clear to paragraph in features */
-.features-list__paragraph {
+.features-list__text {
   margin-top: 0;
   margin-bottom: 0;
 }
 
 /* CSS for section works */
-.works {
-  padding-top: 0;
-}
-
 .works-list {
   /* margins for works */
 }
@@ -712,10 +714,6 @@ img {
 }
 
 /* CSS for section team */
-.team {
-  background-color: #F5F4FA;
-}
-
 /* Flex the team content */
 /* Team item */
 .team-list__item {
@@ -736,7 +734,7 @@ img {
 }
 
 /* Header in team*/
-.team-list__name {
+.team-list__title {
   margin-top: 0;
   margin-bottom: 10px;
   color: #212121;
@@ -750,7 +748,7 @@ img {
 }
 
 /* Team paragraph */
-.team-list__paragraph {
+.team-list__text {
   margin: 0;
   margin-bottom: 16px;
   font-family: Roboto, sans-serif;

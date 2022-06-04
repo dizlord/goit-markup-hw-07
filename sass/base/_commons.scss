@@ -5,6 +5,19 @@ body {
     // @include font();
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &--noPaddingTop {
+        padding-top: 0;
+    }
+
+    &--otherBackground {
+        background-color: getBackGroundColor('team');
+    }
+}
+
 /* Section title */
 .section__title {
     margin-top: 0;

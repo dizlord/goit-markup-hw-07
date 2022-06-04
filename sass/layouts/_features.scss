@@ -1,8 +1,4 @@
 /* CSS for section features */
-.features {
-    @extend %section;
-}
-
 .features-list {
     @extend %list;
 
@@ -45,7 +41,7 @@
 }
 
 /* Clear to paragraph in features */
-.features-list__paragraph {
+.features-list__text {
     margin-top: 0;
     margin-bottom: 0;
 }

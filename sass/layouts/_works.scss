@@ -1,9 +1,4 @@
 /* CSS for section works */
-.works {
-    @extend %section;
-
-    padding-top: 0;
-}
 
 .works-list {
     @extend %list;
